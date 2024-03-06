@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Harrison Rodriguez">
+	<title>Carrusel de Imagenes</title>
+	<link rel="stylesheet" type="text/css" href="./css/estilo.css">
+</head>
+<body >
+	<div id="slider">
+		<img src="img/angeles jerarquias.png" alt="" >
+		<img src="img/serafines.jpeg" alt="">
+		<img src="img/querubines.jpeg" alt="">
+		<img src="img/tronos.jpeg" alt="">
+		<img src="img/dominaciones.jpg" alt="">
+		<img src="img/virtudes.jpg" alt="">
+		<img src="img/poderes.jpg" alt="">
+		<img src="img/principados.jpg" alt="">
+		<img src="img/arcangeles.jpg" alt="">
+		<img src="img/angeles.jpg" alt="">
+	</div>
+	<audio controls autoplay loop>
+		<source src="img/si-vuelan-los-angeles-en-este-lugar_dhrFt96r.mp3" type="audio/mp3">
+		Tu navegador no soporta la etiqueta de audio.
+	</audio>
+
+	<div>
+		<table>
+			<tr>
+				<td id="izquierda">
+					<input type="button" style="color: red; " value="anterior" onclick="cambiarManual('IZQ')">
+				</td>
+				<td id="derecha">
+					<input type="button" style="color: red;" value="siguiente" onclick="cambiarManual('DER')">
+				</td>
+			</tr>
+		</table>
+	</div>
+	
+	<script type="text/javascript" src="./js/jslider.js"></script>			
+</body>
+</html>
